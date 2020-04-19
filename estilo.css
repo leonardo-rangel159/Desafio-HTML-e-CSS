@@ -1,0 +1,180 @@
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+* {
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*Inicio Menu*/
+    object{
+        margin-top: -1.5%;
+        width: 100%;
+        box-shadow: 0px 6px 9px rgb(5, 5, 5);
+    }
+/*Fim Menu*/
+
+/*Titulo da pagina*/
+    .titulo{
+        text-align: center;
+    }
+    h1.titulo{
+        font-size: 300%;
+    }
+    h3.titulo{
+        margin-top: -2%;
+        font-size: 200%;
+    }
+    .title{
+        text-align: center;
+        font-size: 150%;
+    }
+/*Titulo da pagina*/
+
+/*Inicio das noticias texto*/
+    #localn{
+        padding: 2%;
+    }
+    .noticia{
+        min-width: -25%;
+        background-color: gray;
+        float: left;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 6%;
+        margin-bottom: 2%;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    a{
+        color: rgb(0, 0, 0);
+    }
+    .imagemn{
+        margin-left: 4.5%;
+        margin-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img{
+        width: 90%;
+    }
+    .titulon{
+        margin-top: 0.5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 5%;
+        word-wrap: break-word;
+        font-size: 150%;
+        text-align: center;
+    }
+/*Fim das noticias texto*/
+
+/*Inicio das notivias de video*/
+    #localv{
+        margin-top: 35%;
+        padding: 3%;
+    }
+    div.video{
+        background-color: grey;
+        width: 30%;
+        float: left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 2.5%;
+    }
+    video{
+        width: 100%;
+        height: auto;
+    }
+/*Fim das noticias de video*/
+
+/*Inicio das notivias de audio*/
+    #locala{
+        margin-top: 24%;
+    }
+    .audio{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        justify-content: space-around;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 15.2px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .pod{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        margin-bottom: 5.06667px;
+        margin-left: 103.5px;
+        margin-right: 103.5px;
+        margin-top: 5.06667px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        width: 100%;
+    }
+/*Fim das notivias de audio*/
+
+/*Rodape*/
+footer{
+    background-color: grey;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 5.06667px;
+    padding-left: 5.06667px;
+    padding-right: 5.06667px;
+    padding-top: 5.06667px;
+    text-align: center;
+}
+#roda{
+    font-size: 15px;
+    text-align: center;
+    padding: 1%;
+}
+/*Fim rodape*/
+@media only screen and (min-width: 0px) and (max-width: 1000px){
+    object{
+        height: 80px;
+    }
+}
+/*@media only screen and (max-width: 600px){
+    object{
+        height: 95px;
+    }
+}*/
+@media only screen and (max-width: 384px){
+    img{
+        width: 80%;
+    }
+    .titulon{
+        font-size: 90%;
+    }
+}
