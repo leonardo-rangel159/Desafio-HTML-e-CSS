@@ -1,3 +1,3 @@
 # Desafio-gama
 
-Site feito com Html e CSS
+Site feito somente com Html e CSS
